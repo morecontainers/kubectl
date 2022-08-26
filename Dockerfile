@@ -1,5 +1,5 @@
 FROM alpine:latest
-ARG release=v1.21.1
+ARG release=v1.24.4
 RUN wget -O /usr/local/bin/kubectl https://storage.googleapis.com/kubernetes-release/release/$release/bin/linux/amd64/kubectl
 RUN chmod +x /usr/local/bin/kubectl
 RUN mkdir /.kube
